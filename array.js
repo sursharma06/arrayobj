@@ -21,3 +21,4 @@ var user2 = {
 };
 
 user1.username; //using dot operator with objects to access values.
+user2.username = 'bob joe'; //update usernames using dot operator as well.

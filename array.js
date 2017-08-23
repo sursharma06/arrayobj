@@ -6,3 +6,6 @@ var myArray = [];
 myArray.push(false);
 myArray.push('pepsi');
 myArray.push(20);
+
+var colorsArray = ['red', 'blue', 'white', 'pink', 'black', 'purple'];
+colorsArray.pop();

@@ -22,3 +22,23 @@ var user2 = {
 
 user1.username; //using dot operator with objects to access values.
 user2.username = 'bob joe'; //update usernames using dot operator as well.
+
+//for in loop
+var person = {
+  firstName: 'Homer',
+  middleName: 'Jay',
+  lastName: 'Simpson',
+};
+
+for (var key in person) {
+  console.log(person[key]);
+}
+//"Homer"
+//"Jay"
+//"Simpson"
+for (var key in person) {
+  console.log(key);
+}
+//firstName
+//middleName
+//lastName

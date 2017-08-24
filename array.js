@@ -42,3 +42,10 @@ for (var key in person) {
 //firstName
 //middleName
 //lastName
+
+var places = {
+  homeTown: 'Delhi',
+  currentTown: 'New York',
+  placesLived: 'Dubai',
+  placesVisited: ['Canada', 'Mexico'],
+};

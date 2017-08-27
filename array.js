@@ -55,3 +55,7 @@ for (var locations in places) {
   console.log(locations);
   console.log(places[locations]);
 }
+
+var gone = delete places['homeTown'];
+console.log(gone); // doesn't return anything
+console.log(places); // homeTown deleted from places object.

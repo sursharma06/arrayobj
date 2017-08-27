@@ -59,3 +59,5 @@ for (var locations in places) {
 var gone = delete places['homeTown'];
 console.log(gone); // doesn't return anything
 console.log(places); // homeTown deleted from places object.
+
+console.log(Object.keys(places)); //easy way to get all the keys in an object. Returns an array of the keys.

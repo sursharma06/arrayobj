@@ -51,3 +51,7 @@ var places = {
 };
 //console.log(places.hasOwnProperty('homeTown'));
 console.log('placesVisited' in places); // returns a boolean indicating if property exists in object.
+for (var locations in places) {
+  console.log(locations);
+  console.log(places[locations]);
+}

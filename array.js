@@ -49,3 +49,5 @@ var places = {
   placesLived: 'Dubai',
   placesVisited: ['Canada', 'Mexico'],
 };
+//console.log(places.hasOwnProperty('homeTown'));
+console.log('placesVisited' in places); // returns a boolean indicating if property exists in object.
